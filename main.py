@@ -9,7 +9,6 @@ def parse_ingredient(ingredient_line):
 
     return {'ingredient_name': ingredient_name, 'quantity': quantity, 'measure': measure}
 
-
 def get_shop_list_by_dishes(dishes, person_count, cook_book):
     shop_list = {}
     for dish in dishes:
