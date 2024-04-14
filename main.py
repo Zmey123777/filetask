@@ -54,7 +54,6 @@ dishes_for_guests = get_shop_list_by_dishes(['Запеченный картоф�
 print(dishes_for_guests)
 
 #Код к заданию №3
-
 file_names = ['1.txt', '2.txt', '3.txt']
 def prepare_file_info(file_name):
     file_path = os.path.join(os.getcwd(), file_name)
